@@ -1,16 +1,23 @@
 # work_motion_test
 
-A new Flutter project.
+แอป Flutter ทดสอบระบบจัดการพนักงานบริษัทและพนักงาน Outsource
 
-## Getting Started
+# Features
 
-This project is a starting point for a Flutter application.
+- เพิ่ม / แก้ไข / ลบ พนักงานภายในบริษัท
+- แสดงข้อมูลพนักงาน Outsource จาก API
+- แสดงโปรไฟล์พนักงานในแต่ละหน้า
+- ใช้ GetX ในการจัดการ state management และ routing
+- มีระบบยืนยันก่อนลบ และตรวจสอบการกรอกฟอร์ม
 
-A few resources to get you started if this is your first Flutter project:
+# Tech Stack
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Flutter 3.8.1
+- GetX for state & route management
+- http for API calls
+- uuid for unique ID generation
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Installation
+
+- flutter pub get
+- flutter run
